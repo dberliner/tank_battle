@@ -198,13 +198,14 @@ int Player::drawBullets(SDL_Surface *screen)
                 Player::DrawIMG(Player::Ammo[i].face, Player::Ammo[i].xpos, Player::Ammo[i].ypos, screen);
             }
     }
-    
+    return 0;
 }
 
 int Player::stop()
 {
     Player::xspeed = 0;
     Player::yspeed = 0;
+    return 0;
 }
 
 int Player::fire()
@@ -265,6 +266,7 @@ int Player::fire()
          Player::Ammo[round].xpos         = Player::xpos-(Player::Ammo[round].x/2);
     }
     Player::Ammo[round].active = true;
+    return 0;
 }
 
 int Player::Draw(SDL_Surface *screen)

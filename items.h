@@ -5,9 +5,10 @@ int ItemEffects(int Type)
 
 int ItemEventCheck()
 {
-    
+    return 0;
 }
 
 int ItemDeployment()
 {
+    return 0;
 }

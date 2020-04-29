@@ -17,5 +17,6 @@ int draw()
         wall4.Draw(screen);
     
     showInfo();
-    
+
+    return 0;
 }

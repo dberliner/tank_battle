@@ -61,6 +61,7 @@ int changeComputerDir(int dir)
         Player2.yspeed = 0;
         keyDown=true;
     }
+    return 0;
 }
 
 int AI(Player &computer, int x, int y)
@@ -68,8 +69,6 @@ int AI(Player &computer, int x, int y)
     int xDist =  (int)x - (int)computer.xpos;
     int yDist =  (int)y - (int)computer.ypos;
     
-    
-        
     // Remember the first rule of warfare: Shoot first, ask questions later.
     if(abs(xDist) < 10)
     {
@@ -176,4 +175,5 @@ int AI(Player &computer, int x, int y)
                  changeComputerDir(2);
         }
     }
+    return 0;
 }

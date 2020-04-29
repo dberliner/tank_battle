@@ -15,7 +15,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
-#include <windows.h>
 #include <time.h>
 #include <math.h>
 #include <string.h>
@@ -229,7 +228,7 @@ int SetInstances()
         return false; 
     }
     font = TTF_OpenFont( "ariblk.ttf", 18 );
-    if( font == NULL ) { MessageBox(NULL, TTF_GetError(), "Looser", MB_OK); }
+    if( font == NULL ) { /* WINDOWS CMD MessageBox(NULL, TTF_GetError(), "Looser", MB_OK); */ }
     SDL_WM_SetCaption( "Tank Battle", NULL );
     
     

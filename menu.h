@@ -67,5 +67,6 @@ int menuLoop()
         SystemUse.DrawIMG(menuQuit.face,menuQuit.xpos,menuQuit.ypos,screen);
         SDL_Flip(screen);
     }
+    return 0;
 }
     

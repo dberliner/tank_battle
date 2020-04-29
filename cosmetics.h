@@ -18,4 +18,5 @@ int showInfo()
         }
         
         SystemUse.DrawIMG(Player1.coolDownS,250,WINDOW_H-5,screen);
+    return 0;
 }

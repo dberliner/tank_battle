@@ -47,6 +47,7 @@ int collide(Player &player, Wall &wall)
             }
         }
     }
+    return 0;
 }
 
 
@@ -109,6 +110,7 @@ int collide(Player &player, Player &player2)
             }
         }
     }
+    return 0;
 }
 
 
@@ -127,6 +129,7 @@ int checkHit(Player &player, Player &player2)
              }
         }
     }
+    return 0;
 }
 
 
@@ -150,6 +153,7 @@ int collideEnd(Player &player)
     {
          player.xpos = 0;
     }
+    return 0;
 }
 
 int Collision()

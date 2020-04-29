@@ -31,14 +31,14 @@ int MainLoop()
        
        if(Player1.HP <= 0)
        {
-            MessageBox(NULL, "You are a Losser","Looser",MB_ICONEXCLAMATION);
+            /* WINDOWS CALL MessageBox(NULL, "You are a Losser","Looser",MB_ICONEXCLAMATION); */
             SetInstances();
             menuLoop();
        }
        
        if(Player2.HP <= 0)
        {
-            MessageBox(NULL, "You are a Winner","Winner",MB_ICONEXCLAMATION);
+            /* WINDOWS CALL MessageBox(NULL, "You are a Winner","Winner",MB_ICONEXCLAMATION); */
             SetInstances();
             menuLoop();
        }
